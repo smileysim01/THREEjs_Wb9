@@ -56,6 +56,18 @@ function test() {
    * but you can also just turn things on as you make objects
    */
 
+  let spot = new T.SpotLight("yellow");
+  spot.position.y = 12;
+  spot.castShadow = true;
+  world.groundplane.mesh.receiveShadow = true;
+  world.groundplane.mesh.castShadow = true;
+  world.renderer.shadowMap.enabled = true;
+  world.scene.traverse( function(obj) {
+    obj.receiveShadow = true;
+    obj.castShadow = true;
+  });
+
+  world.scene.add(spot);
   world.go();
 }
 test();

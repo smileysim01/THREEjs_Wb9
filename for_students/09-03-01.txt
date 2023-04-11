@@ -1,1 +1,16 @@
 Explain how you used a normal and bump map above
+The leftmost Ball at the back is made using normal map without a colorMap. 
+The right Ball at the back is made using bump map without a colorMap. 
+The rightmost Ball in the front is made using normal bump with a colorMap. 
+
+After downloading the texture images, I made textures using the TextureLoader class.
+I added the image which looks like bumps as normalMap value to the normally mapped ball.
+Similarly, I added bumpMap property to the bumppy ball through the same image.
+In the third, front ball, I also added a map of a rough orange colored texture image.
+
+Even though I used the same textures for al objects, they all look different.
+Clearly, the normally Mapped ball looks like having real texture and apparent bumpiness, whereas the bumpMap ball looks fake.
+The third ball with normal mapping and color mapping looks most realistic and not superficially plastic like the other two.
+
+Sources for images used in texturing:
+https://in.pinterest.com/

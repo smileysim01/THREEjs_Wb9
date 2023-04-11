@@ -1,3 +1,9 @@
 Explain why the object you chose is a good use case for environment mapping.
 
+I find my objects suitable. The background object is equirectangular, hence it is appropriate to be set as envMap texture.
+The object that captures the texture is a broken mirror. This broken mirror captures the surrounding environment very well.
+I have combined envMap and color map to make my object.
+
 Explain where you got your textures and include any attributions here.
+broken mirror: digitally drawn by myself.
+https://www.dreamstime.com/spherical-degrees-seamless-panorama-view-equirectangula-equirectangular-projection-natural-landscape-germany-vr-content-image119752572

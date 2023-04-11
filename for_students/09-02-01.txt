@@ -1,1 +1,8 @@
 Explain how you incorporated a material property map here and what its effect is (how can we see it?)
+
+To incorporate the material property map, I first downloaded a tyre texture image from the web.
+Then I created a texture object using the TextureLoader class. 
+Then, I assigned this texture to the map property of my material(mat).
+To make it look more realistic, I also setted the roughness property of the material.
+
+You can see it in the tyre which is rotating in the world. The tyre has grooved texture like any normal car tyre. It looks rough, and shiny just like a real-world tyre.

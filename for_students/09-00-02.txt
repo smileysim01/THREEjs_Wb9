@@ -1,1 +1,3 @@
 Give proper attribution for models gathered from the web here
+
+No objects have been loaded other than the course material and images for textures.

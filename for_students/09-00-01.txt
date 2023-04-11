@@ -1,1 +1,11 @@
 In this box, explain how you used each of the creation methods listed above
+
+1. A texture you made yourself by painting (digital painting, using a painting program/photo editor)
+- I have used a color map in 09-05-01.js. To make the texture of color map, I digitally drew the broken texture of the mirror.
+
+2. A texture that you got from the web (document where you found it, and confirm that it is free to use)
+- I downloaded textures to make the Ball object in 09-03-01. All textures were downloaded from Pinterest and were free to use.
+https://in.pinterest.com/
+
+3. A texture that is a photograph (that you took) of a real object
+- I clicked the photograph of cover page along with backside and side of the book used in 09-01-01.js
